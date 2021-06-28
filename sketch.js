@@ -97,7 +97,7 @@ function draw(){
      else if(ran==2){
      spawnTrap()}
      }
-  player.collide(trapGroup,destroy1);
+  player.isTouching(trapGroup,destroy1);
      //    player.collide(treasureGroup,destroy2)
 
      player.isTouching(treasureGroup,destroy2)
@@ -193,7 +193,7 @@ function end (){
      
      
      road.velocityY= 0;
-     player.velocityY =0;
+     //player.velocityY =0;
      gameOver.visible = true;
      player.changeAnimation("anime2", player_stop);
   
