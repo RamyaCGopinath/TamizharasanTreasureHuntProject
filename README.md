@@ -1,1 +1,1 @@
-# TamizharasanTreasureHuntProject
+# TreasureHunt
