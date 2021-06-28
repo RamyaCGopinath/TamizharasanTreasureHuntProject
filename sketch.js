@@ -193,7 +193,7 @@ function end (){
      
      
      road.velocityY= 0;
-  //   player.velocityY =0;
+     player.velocityY =0;
      gameOver.visible = true;
      player.changeAnimation("anime2", player_stop);
   
